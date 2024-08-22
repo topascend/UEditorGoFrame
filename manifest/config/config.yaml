@@ -1,0 +1,16 @@
+server:
+  address:     ":8000"
+  serverRoot: "resource/public"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+
+logger:
+  level : "all"
+  stdout: true
+
+viewer:
+  paths: [ "resource/template", ]
+  defaultFile: "index.html"
+  #delimiters: [ "${", "}" ]
+
+
