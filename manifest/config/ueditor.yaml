@@ -1,4 +1,5 @@
-imageActionName: "uploadImage" # 上传图片配置项
+# 上传图片配置项
+imageActionName: "uploadImage"
 # 执行上传图片的action名称 
 imageFieldName: "upfile"
 # 提交的图片表单名称 
